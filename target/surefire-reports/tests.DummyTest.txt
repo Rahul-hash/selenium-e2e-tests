@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: tests.DummyTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 23.858 s <<< FAILURE! - in tests.DummyTest
+openGoogle  Time elapsed: 18.785 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of all elements located by By.xpath: //*[contains(text(),'Domain suchen')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Sugandhas-MacBook-Pro.local', ip: '2a02:8109:b540:478e:f02f:638:9ca4:bd31%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/93/k86gf63j31d...}, goog:chromeOptions: {debuggerAddress: localhost:51070}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 69ffb789aa17bab3c1f17b6882cf7fe5
+	at tests.DummyTest.openGoogle(DummyTest.java:12)
+

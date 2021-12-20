@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: tests.SurveyTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.099 s <<< FAILURE! - in tests.SurveyTest
+openSurvey  Time elapsed: 6.014 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//tspan[contains(text(),"Total")]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Sugandhas-MacBook-Pro.local', ip: '2a02:8109:b540:478e:f02f:638:9ca4:bd31%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/93/k86gf63j31d...}, goog:chromeOptions: {debuggerAddress: localhost:58014}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5569abd61496f69391ad5bfb0de454b7
+*** Element info: {Using=xpath, value=//tspan[contains(text(),"Total")]}
+	at tests.SurveyTest.openSurvey(SurveyTest.java:12)
+
